@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UFO Finder
+    <title>UFO Finder </title>
         <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -11,9 +11,10 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="static/css/style.css">
 
-    </title>
+    <link href="static/css/style.css" rel="stylesheet">
+
+
 </head>
 <body class= "bg-dark">
     <div class= "wrapper">
@@ -29,19 +30,19 @@
 <div class ="container-fluid">
     <div class="row">
    
-    <div class="col-md-4">
+    <div class="col-md-4 article-title">
         <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
 
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 article-p">
         <p>
-            Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can supplement our sky-searching with data analysis.
+            <br>Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can supplement our sky-searching with data analysis. </br>
 
-"The release of this analysis is well-timed: It coincides with the celebration of World UFO Day, which is a moment for ufologists around the world to connect, relax, and sample a range of UFO-themed snacks," said Dr. Ursula F. Olivier, the world's preeminent expert on circular sightings. "Citizen-scientists can be especially helpful in both cataloguing sightings—which is hugely helpful for us in our search for aliens—and in helping us celebrate the work that has already been done, such as this data visualization project, which will help us raise awareness of the ubiquity of sightings!"
+<br>"The release of this analysis is well-timed: It coincides with the celebration of World UFO Day, which is a moment for ufologists around the world to connect, relax, and sample a range of UFO-themed snacks," said Dr. Ursula F. Olivier, the world's preeminent expert on circular sightings. "Citizen-scientists can be especially helpful in both cataloguing sightings—which is hugely helpful for us in our search for aliens—and in helping us celebrate the work that has already been done, such as this data visualization project, which will help us raise awareness of the ubiquity of sightings!" </br>
 
-Not everyone is ready to celebrate, however. Local CEO and vocal anti-alien activist V. Isualize reached out to our reporters to go on record as firmly opposed to any attempts to provide access to this data. "If there are aliens, they certainly would like to be left alone," she stated, before directing us to the Leave Aliens Alone (LAA) community engagement initiative she founded and funds.
+<br>Not everyone is ready to celebrate, however. Local CEO and vocal anti-alien activist V. Isualize reached out to our reporters to go on record as firmly opposed to any attempts to provide access to this data. "If there are aliens, they certainly would like to be left alone," she stated, before directing us to the Leave Aliens Alone (LAA) community engagement initiative she founded and funds.</br>
 
-So what do YOU think? Are we alone in the universe? Are aliens trying to contact us, or do they want to be left alone? Dig through the data yourself, and let us know what you see.
+<br>So what do YOU think? Are we alone in the universe? Are aliens trying to contact us, or do they want to be left alone? Dig through the data yourself, and let us know what you see.</br>
         </p>
 
     </div>
@@ -62,17 +63,37 @@ So what do YOU think? Are we alone in the universe? Are aliens trying to contact
 <form class="bg-dark">
     <p>Filter Search</p>
 
-<ul class="bg-dark">
-    <li>
+<ul class="list-group">
+    <li class = "list-group-item bg-dark">
         <label for="date">Enter Date</label>
         <input type="text" placeholder="1/10/2010" id="datetime" />
     </li>
-    <li>
-        <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+
+
+    <li class = "list-group-item bg-dark">
+        <label for="city">Enter City</label>
+        <input type="text" placeholder="city" id="city" />
     </li>
+
+    <li class = "list-group-item bg-dark">
+        <label for="state">Enter State</label>
+        <input type="text" placeholder="state" id="state" />
+    </li>
+
+    <li class = "list-group-item bg-dark">
+        <label for="country">Enter Country</label>
+        <input type="text" placeholder="country" id="country" />
+    </li>
+
+    <li class = "list-group-item bg-dark">
+        <label for="shape">Enter Shape</label>
+        <input type="text" placeholder="shape" id="shape" />
+    </li>
+
 </ul>
 </form>
-    <div class="col-md-9">
+
+<div class="col-md-9">
     <table class="table table-striped">
       <thead>
         <tr>
